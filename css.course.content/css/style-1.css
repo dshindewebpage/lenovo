@@ -1,0 +1,113 @@
+body{background: rgba(180, 240, 187, 0.18);}
+#title{color: rgb(247, 121, 2);  }
+.subtitle{color: rgb(180, 110, 50);}
+/*.image-service {
+    height: 350px;
+    width: 600px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background: url("../img/img-4.jpg");
+
+}*/
+/*.image-service {
+    height: 350px;
+    width: 600px;
+    background-size: cover;
+
+   background: linear-gradient(126deg, pink , orange);
+}*/
+/*.image-service {
+    height: 350px;
+    width: 600px;
+    background-size: cover;
+    background: linear-gradient(to left, pink , orange);
+}
+*/
+.image-service {
+    height: 350px;
+    width: 600px;
+    background-size: cover;
+    background:radial-gradient(circle, yellow 10%, orange 40% , skyblue 90%);
+}
+
+.container {
+    background-color: rgb(0, 0, 0 );
+    margin: 30px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-item {
+    background: rgb(36, 130, 39);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+
+    width: 70px;
+    line-height: 60px;
+    margin: 10px;
+}
+
+.grid-container {
+    background-color: rgb(218, 221, 225);
+    margin: 10px;
+    height: 300px;
+
+    display: grid;
+
+    grid-template-columns: auto auto auto;
+    /*grid-column-gap: : 50px; */
+
+    grid-template-rows: auto auto;
+   /* grid-row-gap: 60px;*/
+   /* grid-gap: 80px 60px;*/
+
+
+   /* justify-content: space-around;
+    align-content: center;
+*/
+}
+
+.grid-item {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+
+    width: 80px;
+    line-height: 40px;
+    margin: 10px;
+}
+
+.submit-button {
+    margin: 30px 20px;
+    padding: 20px 30px;
+    border: none;
+    text-decoration: none;
+    font-family: "Lato" , sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    background: rgb(89, 150, 255);
+   /* transform: skewX(20deg);*/
+   /* transform:skewY(20deg);*/
+    /*transform: rotate(2deg);*/
+   /* transform: translate(10px, 20px);*/
+   /* transform: scale(1.2);*/
+    transform: matrix(1 , 0.45 , 0.45 , 1 , 50 , 30 );
+   /*(scale , skewX , skewY , scale y , translate x /translate y ,  )*/
+
+   /* transition: background 2s ease-in-out 2s;*/
+
+    /*(background/color , time taken to change , type , delay ) transition ka matlab */
+}
+
+.submit-button:hover {
+color: black;
+background: yellow;
+padding: 30px 40px ;
+
+}

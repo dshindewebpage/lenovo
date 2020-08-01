@@ -1,0 +1,19 @@
+h2:hover{color: red}
+.aboutme{background: orange}
+#aboutme{color: pink}
+.service{color: yellow}
+/*li:nth-child(1){color: orange}*/
+td:nth-child(2){color: purple}
+/*#google-link:link{color: pink}
+#google-link:visited{color: grey}
+#whatsapp-link:link{color: pink}
+#whatsapp-link:visited{color: grey}
+*/
+
+h1 + p {color: red}
+textarea ~ button{color: orange}
+ul > li {color: pink}
+
+ul li {color: green}
+
+
